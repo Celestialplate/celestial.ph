@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Celestial Plate</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #8B4513, #000);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background-color: #4B2E26;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  h1 {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+  }
+  p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  nav {
+    background-color: #2F1B13;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  nav a:hover {
+    background-color: #8B4513;
+  }
+  section {
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  footer {
+    background-color: #4B2E26;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+  .about-us p {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .pictures {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .pictures div {
+    text-align: center;
+  }
+  .pictures img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px; /* rounded corners for the images */
+  }
+  .location {
+    margin-top: 10px; /* Reduced space between location and hours */
+    font-size: 16px;
+    color: white;
+  }
+  .hours {
+    font-size: 16px;
+    color: white;
+  }
+  .separator {
+    width: 80%;
+    height: 1px;
+    background-color: #8B4513; /* simple line separator that fits with the color theme */
+    margin: 20px auto;
+  }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="book a table.html">Book a Table</a>
+    <a href="place order.html">Make an Order</a>
+  </nav>
+  <header>
+    <h1>About Us</h1>
+  </header>
+  <section>
+    <div class="about-us">
+      <p>We are a family-owned restaurant dedicated to providing top-quality service and delicious meals made from fresh, local ingredients. Our mission is to offer an exceptional dining experience with every visit, making every meal memorable. At Celestial Plate, you don’t just dine—you experience the taste of heaven. Each dish is crafted to transport your senses, offering a taste of paradise in every bite.</p>
+    </div>
+    <div class="pictures">
+      <div>
+        <img src="angelica.jpg" alt="Owner 1">
+        <p>Angelica</p>
+      </div>
+      <div>
+        <img src="hazel.jpg" alt="Owner 2">
+        <p>Hazel</p>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <div class="location">
+      <p><strong>Location:</strong> Bagasbas, Daet, Camarines Norte</p>
+      <p class="hours"><strong>Business Hours:</strong> 10 AM - 11 PM</p>
+    </div>
+  </section>
+  <footer>
+    <p>© 2024 Celestial Plate. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
